@@ -1,0 +1,37 @@
+.technologies,
+.experience {
+    display: flex;
+    width: 100%;
+    margin-top: 0.5rem;
+    gap: 0.5rem;
+}
+
+.technologies svg {
+    fill: var(--secondary-color);
+}
+
+.experience>a {
+    display: block;
+    margin-inline: auto;
+}
+
+.experience~h5 {
+    text-align: center;
+}
+
+.experience svg {
+    min-width: 150px;
+    max-width: 300px;
+    margin-inline: auto;
+}
+
+.home-content~div:not(:last-of-type) {
+    margin-bottom: 30rem;
+}
+
+.home-content~div>a {
+    display: inline-block;
+    font-size: var(--step-2);
+    font-weight: bold;
+    margin-left: .5rem;
+}

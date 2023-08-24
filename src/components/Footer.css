@@ -1,0 +1,27 @@
+/* Default styles for mobile version */
+.page-footer {
+    background-color: var(--color-to-details);
+    width: 100%;
+    z-index: 10;
+}
+
+.page-footer>h3 {
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.network-icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.network-icons svg {
+    width: 32px;
+    height: 30px;
+    fill: var(--special-fonts-color);
+}
+
+.network-icons~a {
+    display: block;
+    text-align: center;
+}

@@ -1,0 +1,44 @@
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.hero-titles {
+    position: relative;
+    top: 15vh;
+    opacity: 0.8;
+    animation: heartbeat 10s backwards;
+}
+
+.hero-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('/portfolio/me_04.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 60%;
+    opacity: 0.5;
+    z-index: -5;
+}
+
+@media screen and (min-width: 750px) {
+    .hero-titles {
+        position: relative;
+        top: 40vh;
+        left: 20vw;
+        width: 50%;
+        margin-inline: auto;
+    }
+}
